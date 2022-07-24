@@ -1,7 +1,7 @@
 export const KCC = {
   FULLNAME: 'Cicada Cash',
   ABBR: 'CICA',
-  EXPLORER: 'https://explorer.cicada.cash',
+  EXPLORER: '/',
   EXPLORER2: 'https://explorer.cicada.cash',
   TEST_EXPLORER: 'https://scan-testnet.kcc.network',
   MAINNET_FAUCET: 'https://faucet.cicada.cash',
@@ -19,10 +19,10 @@ export const KCC = {
   DISCLAIMER: 'id=disclaimers',
   FAQ: 'id=faq',
   GRANTS: 'https://github.com/kcc-community/kcc-grants',
-  DISCOVER: 'https://discover.cicada.cash',
+  DISCOVER: '/',
   DAO: 'https://dao.cicada.cash',
-  SAFE_GNOSIS: 'https://swap.cicada.cash',
-  STAKING: 'https://stake.cicada.cash',
+  SAFE_GNOSIS: '/',
+  STAKING: '/',
   CONTACT_LIST: [
     {
       app: 'Twitter',

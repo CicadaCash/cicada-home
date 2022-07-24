@@ -133,19 +133,19 @@ export const MENU_LIST = [
       {
         title: 'Grant Program',
         subTitle: `support for community development and research`,
-        route: '/community/grants',
+        route: '/',
         icon: require('../assets/images/Icons/menu/grant@2x.png').default,
       },
       {
         title: 'Ambassador Program',
         subTitle: `support for community development and research`,
-        route: '/community/grants',
+        route: '/',
         icon: require('../assets/images/Icons/menu/grant@2x.png').default,
       },
       {
         title: 'Funding Program',
         subTitle: `support for community development and research`,
-        route: '/community/grants',
+        route: '/',
         icon: require('../assets/images/Icons/menu/grant@2x.png').default,
       },
     ],
@@ -166,7 +166,7 @@ export const MENU_LIST = [
   },
   {
     name: 'News',
-    route: 'https://news.cicada.cash',
+    route: '/',
     hasChildren: false,
   },
   {

@@ -11,7 +11,7 @@ export const FOOTER_LIST = [
       },
       {
         navText: 'News',
-        navRoute: 'https://news.cicada.cash',
+        navRoute: '/',
       },
     ],
   },

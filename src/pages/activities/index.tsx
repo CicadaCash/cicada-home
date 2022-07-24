@@ -96,8 +96,8 @@ const ActivitiesPage: React.FunctionComponent<GrantsPageProps> = () => {
       thumbnail_ch: require('../../assets/images/activity/ambassador.png').default,
       thumbnail_en: require('../../assets/images/activity/ambassador.png').default,
       deadline: '2023/07/07 10:57:33',
-      url_ch: '/jobs',
-      url_en: '/jobs',
+      url_ch: '/',
+      url_en: '/',
     },
     {
       thumbnail_ch: require('../../assets/images/activity/job.png').default,
@@ -110,15 +110,15 @@ const ActivitiesPage: React.FunctionComponent<GrantsPageProps> = () => {
       thumbnail_ch: require('../../assets/images/activity/funding.png').default,
       thumbnail_en: require('../../assets/images/activity/funding.png').default,
       deadline: '2023/07/07 10:57:33',
-      url_ch: '/community/grants',
-      url_en: '/community/grants',
+      url_ch: '/',
+      url_en: '/',
     },
     {
       thumbnail_ch: require('../../assets/images/activity/community.png').default,
       thumbnail_en: require('../../assets/images/activity/community.png').default,
       deadline: '2023/07/07 10:57:33',
-      url_ch: '/ambassador',
-      url_en: '/ambassador',
+      url_ch: '/',
+      url_en: '/',
     },
   ]
 
