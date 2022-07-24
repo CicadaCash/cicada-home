@@ -93,29 +93,29 @@ const ActivityImaga = styled.img`
 const ActivitiesPage: React.FunctionComponent<GrantsPageProps> = () => {
   const alwaysShow: any[] = [
     {
-      thumbnail_ch: require('../../assets/images/activity/activity-1-ch.png').default,
-      thumbnail_en: require('../../assets/images/activity/activity-1-en.png').default,
+      thumbnail_ch: require('../../assets/images/activity/ambassador.png').default,
+      thumbnail_en: require('../../assets/images/activity/ambassador.png').default,
       deadline: '2023/07/07 10:57:33',
       url_ch: '/jobs',
       url_en: '/jobs',
     },
     {
-      thumbnail_ch: require('../../assets/images/activity/activity-1-ch.png').default,
-      thumbnail_en: require('../../assets/images/activity/activity-1-en.png').default,
+      thumbnail_ch: require('../../assets/images/activity/job.png').default,
+      thumbnail_en: require('../../assets/images/activity/job.png').default,
       deadline: '2023/07/07 10:57:33',
       url_ch: '/ambassador',
       url_en: '/ambassador',
     },
     {
-      thumbnail_ch: require('../../assets/images/activity/activity-1-ch.png').default,
-      thumbnail_en: require('../../assets/images/activity/activity-1-en.png').default,
+      thumbnail_ch: require('../../assets/images/activity/funding.png').default,
+      thumbnail_en: require('../../assets/images/activity/funding.png').default,
       deadline: '2023/07/07 10:57:33',
       url_ch: '/community/grants',
       url_en: '/community/grants',
     },
     {
-      thumbnail_ch: require('../../assets/images/activity/activity-1-ch.png').default,
-      thumbnail_en: require('../../assets/images/activity/activity-1-en.png').default,
+      thumbnail_ch: require('../../assets/images/activity/community.png').default,
+      thumbnail_en: require('../../assets/images/activity/community.png').default,
       deadline: '2023/07/07 10:57:33',
       url_ch: '/ambassador',
       url_en: '/ambassador',
