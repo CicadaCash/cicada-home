@@ -103,8 +103,8 @@ const ActivitiesPage: React.FunctionComponent<GrantsPageProps> = () => {
       thumbnail_ch: require('../../assets/images/activity/job.png').default,
       thumbnail_en: require('../../assets/images/activity/job.png').default,
       deadline: '2023/07/07 10:57:33',
-      url_ch: '/ambassador',
-      url_en: '/ambassador',
+      url_ch: '/jobs',
+      url_en: '/jobs',
     },
     {
       thumbnail_ch: require('../../assets/images/activity/funding.png').default,

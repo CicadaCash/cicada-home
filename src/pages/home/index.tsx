@@ -140,7 +140,7 @@ const Characteristics = [
   },
   {
     description: 'KCC INTRODUCE 2',
-    image: require('../../assets/images/home/introduce-2@2x.png').default,
+    image: require('../../assets/images/home/C.png').default,
   },
   {
     description: 'KCC INTRODUCE 3',
@@ -672,7 +672,7 @@ const HomePage: React.FunctionComponent<HomePageProps> = () => {
 
   const faqList = [
     {
-      question: `What is KCC?`,
+      question: `What is Cicada Cash?`,
       answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. network that enables the creation of a new blockchain network.`,
     },
     {
@@ -680,7 +680,15 @@ const HomePage: React.FunctionComponent<HomePageProps> = () => {
       answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network.`,
     },
     {
-      question: `What KCC?`,
+      question: `Has the protocol been audited?`,
+      answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. the creation of a new blockchain network.`,
+    },
+    {
+      question: `Is the code open-source?`,
+      answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. the creation of a new blockchain network.`,
+    },
+    {
+      question: `What is a relayer?`,
       answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. the creation of a new blockchain network.`,
     }
   ]
