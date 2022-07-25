@@ -116,7 +116,7 @@ const TransferButton: React.FunctionComponent<TransferButtonProps> = ({
   if (!bridgeStatus) {
     return (
       <TransferButtonWrap>
-        <DisabledButton>{t(`KCC bridge under maintenance`)}</DisabledButton>
+        <DisabledButton>{t(`Cicada Cash bridge under Development`)}</DisabledButton>
       </TransferButtonWrap>
     )
   }

@@ -91,38 +91,38 @@ const ActivityImaga = styled.img`
 `
 
 const ActivitiesPage: React.FunctionComponent<GrantsPageProps> = () => {
-  const alwaysShow: any[] = [
+  const alwaysShow: any[] = []
+
+  const activities: any[] = [
     {
       thumbnail_ch: require('../../assets/images/activity/ambassador.png').default,
       thumbnail_en: require('../../assets/images/activity/ambassador.png').default,
-      deadline: '2023/07/07 10:57:33',
+      deadline: '2022/07/07 10:57:33',
       url_ch: '/',
       url_en: '/',
     },
     {
       thumbnail_ch: require('../../assets/images/activity/job.png').default,
       thumbnail_en: require('../../assets/images/activity/job.png').default,
-      deadline: '2023/07/07 10:57:33',
-      url_ch: '/jobs',
-      url_en: '/jobs',
+      deadline: '2022/07/07 10:57:33',
+      url_ch: '/',
+      url_en: '/',
     },
     {
       thumbnail_ch: require('../../assets/images/activity/funding.png').default,
       thumbnail_en: require('../../assets/images/activity/funding.png').default,
-      deadline: '2023/07/07 10:57:33',
+      deadline: '2022/07/07 10:57:33',
       url_ch: '/',
       url_en: '/',
     },
     {
       thumbnail_ch: require('../../assets/images/activity/community.png').default,
       thumbnail_en: require('../../assets/images/activity/community.png').default,
-      deadline: '2023/07/07 10:57:33',
+      deadline: '2022/07/07 10:57:33',
       url_ch: '/',
       url_en: '/',
     },
   ]
-
-  const activities: any[] = []
 
   const [endedList, setEndedList] = React.useState([])
   const [onGoingList, setOnGoingList] = React.useState([])

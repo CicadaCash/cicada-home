@@ -29,11 +29,12 @@ export const VI = { code: 'vi', language: 'Tiếng Việt' }
 
 export const allLanguages = [
   EN,
+/*
   ZHCN,
   ZHTW,
   ESES,
   DE,
-  /*   AR,
+   AR,
   BN,
 
   ZHTW,

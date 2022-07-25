@@ -154,8 +154,8 @@ const JobPage: React.FunctionComponent<GrantsPageProps> = () => {
       thumbnail_ch: require('../../assets/images/activity/kcs-kcc-tele-cn.png').default,
       thumbnail_en: require('../../assets/images/activity/kcs-kcc-tele-en.png').default,
       deadline: '2022/04/03 10:00:00',
-      url_ch: 'https://t.me/KCCOfficialEnglishCommunity',
-      url_en: 'https://t.me/KCCOfficialEnglishCommunity',
+      url_ch: 'https://t.me/CicadaCash',
+      url_en: 'https://t.me/CicadaCash',
     },
 
     {

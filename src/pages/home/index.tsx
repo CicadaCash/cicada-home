@@ -673,23 +673,27 @@ const HomePage: React.FunctionComponent<HomePageProps> = () => {
   const faqList = [
     {
       question: `What is Cicada Cash?`,
-      answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. network that enables the creation of a new blockchain network.`,
+      answer: `Cicada Cash is a fully decentralized protocol for DAO, Governance, Swap, Stake & private transactions on Binance Smart Chain.`,
     },
     {
-      question: `What is the purpose of KCC?`,
-      answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network.`,
+      question: `What is the purpose of Cicada Cash?`,
+      answer: `Cicada Cash make it easy for Binance Smart Chain holders to make transactions confidentially with ease, with the addition of several features from us that are being developed such as Swap, DAO, Staking, and others, it will make it easier for Cicada Cash users.`,
     },
     {
       question: `Has the protocol been audited?`,
-      answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. the creation of a new blockchain network.`,
+      answer: `All programs that have been made by Cicada will be audited when they are finished.`,
     },
     {
       question: `Is the code open-source?`,
-      answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. the creation of a new blockchain network.`,
+      answer: `https://github.com/CicadaCash`,
     },
     {
       question: `What is a relayer?`,
-      answer: `KCC is a decentralized blockchain network that enables the creation of a new blockchain network. the creation of a new blockchain network.`,
+      answer: `Relayers are used to withdraw to an account with no BNB balance. The relayer sends a withdrawal transaction and takes a part of the deposit as compensation (the protocol itself does not collect any fees). The relayer cannot change any withdrawal data including recipient address. The Cicada Cash initial developers do not control or play any role in relaying transactions.`,
+    },
+    {
+      question: `Need Help?`,
+      answer: `If you need further assistance please contact hello@cicada.cash`,
     }
   ]
 
@@ -858,7 +862,6 @@ const HomePage: React.FunctionComponent<HomePageProps> = () => {
       {/* notice bar */}
       <HomePageWrap>
         <IntroduceCoverWrap>
-          <NoticeBar />
           <IntroduceCoverImageWrap src={IntroduceCoverImage} height="400px" width="50%" />
           <BaseWrap style={{ padding: isMobile ? '30px 0' : '80px 0', position: 'relative', zIndex: 1 }}>
             <BrowserView style={{ padding: isTablet ? '0 24px' : '0px' }}>

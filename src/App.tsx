@@ -17,6 +17,7 @@ const Bridge = lazy(() => import(/* webpackChunkName:'Bridge' */ './pages/bridge
 const Ambassador = lazy(() => import(/* webpackChunkName:'Ambassador' */ './pages/ambassador/index'))
 const Unicorn = lazy(() => import(/* webpackChunkName:'Unicorn' */ './pages/uniccorn/index'))
 const Jobs = lazy(() => import(/* webpackChunkName:'Unicorn' */ './pages/jobs/index'))
+const Tokenomics = lazy(() => import(/* webpackChunkName:'Unicorn' */ './pages/tokenomics/index'))
 
 import { clearConfirmAndOutdateOrder } from './utils/task'
 
@@ -80,6 +81,7 @@ export default function App() {
             <Route path="/" exact={true} component={Home} />
             <Route path="/community/grants" exact={true} component={Grants} />
             <Route path="/activity" exact={true} component={Activity} />
+            <Route path="/tokenomics" exact={true} component={Tokenomics} />
             <Route path="/ambassador" exact={true} component={Ambassador} />
             <Route path="/unicorn" exact={true} component={Unicorn} />
             <Route path="/jobs" exact={true} component={Jobs} />

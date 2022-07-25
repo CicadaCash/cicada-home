@@ -126,8 +126,8 @@ const contactList = [
     name: 'Telegram',
     icon: require('../../../assets/images/activity/telegram.png').default,
     list: [
-      { language: 'Announcement', url: 'https://t.me/KCCOfficialChannel', hot: true },
-      { language: 'Global', url: 'https://t.me/KCCOfficialEnglishCommunity'},
+      { language: 'Announcement', url: 'https://t.me/CicadaCash', hot: true },
+      { language: 'Global', url: 'https://t.me/CicadaCash'},
     ],
   },
   {

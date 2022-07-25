@@ -42,7 +42,7 @@ export const MENU_LIST = [
     hasChildren: true,
     childrens: [
       {
-        title: 'Developer Docs',
+        title: 'Read Docs',
         subTitle: 'Start building on KuCoin Community Chain',
         route: KCC.DOCS_URL,
         icon: require('../assets/images/Icons/menu/docs@2x.png').default,
@@ -138,13 +138,13 @@ export const MENU_LIST = [
       },
       {
         title: 'Ambassador Program',
-        subTitle: `support for community development and research`,
+        subTitle: `We will open a random volunteer who will be the face of CICA`,
         route: '/',
         icon: require('../assets/images/Icons/menu/grant@2x.png').default,
       },
       {
         title: 'Funding Program',
-        subTitle: `support for community development and research`,
+        subTitle: `We opened a Funding Program to aim who will being Investor and Partners of CICA`,
         route: '/',
         icon: require('../assets/images/Icons/menu/grant@2x.png').default,
       },
@@ -179,13 +179,12 @@ export const MENU_LIST = [
     hasChildren: false,
   },
   {
-    name: 'Jobs',
+    name: 'Tokenomics',
     subTitle: 'View the exciting activites information, Includes hackathons,meetups,and more',
-    route: '/jobs',
+    route: '/tokenomics',
     // route: '',
     // subTitle: 'Coming Soon...',
     icon: require('../assets/images/Icons/menu/activity@2x.png').default,
     hasChildren: false,
   },
-
 ]
